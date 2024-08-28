@@ -231,6 +231,9 @@ def destroy() -> None:
         clean_temp(modules.globals.target_path)
     quit()
 
+def hello() -> None:
+    print("hello world")
+
 
 def run() -> None:
     parse_args()
